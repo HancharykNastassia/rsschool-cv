@@ -78,6 +78,9 @@ C# code
 1. **Belintersat**
    1. Engineer of Orbit Engineering Group  
       *Jan, 2020 - present time*  
+      _*Key Responsibilities:*_
+      1. Orbit determination and propagation
+      2. Control actions' computation
    2. Engineer of Satellite Analysis and Control Department  
       *Aug, 2019 - Jan, 2020*  
 2. **EPAM Systems**
