@@ -4,10 +4,16 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta charset="utf-8">
       <title>Nastassia Hancharyk-CV</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <h1>Nastassia Hancharyk</h1>
         <h2>Contacts</h2>
+        <p>
+          <strong><em>E-mail:</em></strong>
+          goncharik.anastasia@mail.ru
+        </p>
+        <p><a href="https://www.linkedin.com/in/nastassia-hancharyk-368ba6173/">LinkedIn</a></p>
         <h2>Short Description</h2>
         <ul>
           <li>Curios and love education, selfdevelopment</li>
@@ -26,9 +32,7 @@
           <li>Matlab</li>
           <li>Mathematica</li>
         </ul>
-        <h3>
-            <abbr title="Integrated Development Environment">IDE</abbr>
-        </h3>
+        <h3>IDE</h3>
         <ul>
           <li>MS Visual Studio</li>
           <li>Xamarin</li>
@@ -43,13 +47,9 @@
           <li>NUnit</li>
           <li>MSTest</li>
         </ul>
-        <h3>
-          <abbr title="Version Control System">VCS</abbr>
-        </h3>
+        <h3>VCS</h3>
         <p>Git</p>
-        <h3>
-          <abbr title="Continious Integration">CI</abbr>
-          tools
+        <h3>CI tools
         </h3>
         <ul>
           <li>Jenkins</li>
@@ -75,6 +75,22 @@
         </ul>
         <p>MS Office package</p>
         <h2>Examples of code</h2>
+        <pre>
+          public T Deserialize<T> (IRestResponse response)
+            {
+              if (response == null)
+              {
+                throw new ArgumentNullException(nameof(response));
+              }
+              var serializator = new JsonSerializer();
+              using (MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(response.Content)))
+              {
+                StreamReader firstReader = new StreamReader(stream);
+                JsonTextReader reader = new JsonTextReader(firstReader);
+                var result = serializator.Deserialize<T>(reader);
+                return result;
+              }
+            </pre>
         <h2>Experience</h2>
         <ol>
           <li>
