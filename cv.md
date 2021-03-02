@@ -2,7 +2,7 @@
 
 ## _**Contacts:**_  
 **_E-mail_**: goncharik.anastasia@mail.ru  
-**_LinkedIn_**:https://www.linkedin.com/in/nastassia-hancharyk-368ba6173/
+[**_LinkedIn_**](https://www.linkedin.com/in/nastassia-hancharyk-368ba6173/)
 
 ## _**Short description:**_
 1. Curios and love education, selfdevelopment
@@ -21,7 +21,7 @@
 * Matlab
 * Mathematica
 
-### **IDE:**
+### **<abbr title ="Integrated Development Environment">IDE</abbr>:**
 * MS Visual Studio
 * Xamarin
 
@@ -32,10 +32,10 @@
 * NUnit
 * MSTest
 
-### **VCS:**
+### **<abbr title="Version Control System">VCS</abbr>:**
 Git
 
-### **CI:**
+### **<abbr title="Continious Integration">CI</abbr> tools:**
 * Jenkins
 * Bamboo
 
