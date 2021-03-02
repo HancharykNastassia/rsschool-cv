@@ -18,24 +18,41 @@ h4{
   text-align: center;
 }
 
-p{
-  text-align: center;
+.text-to-shift{
+  margin-left: 2.5em;
 }
 
 #contacts{
   text-align: left;
   margin: auto;
-  width: 30%;
+  width: 50%;
 }
 
-#shortDescription{
+#short-description{
   text-align: left;
   margin: auto;
-  width: 30%;
+  width: 50%;
 }
 
 #skills{
   text-align: left;
   margin: auto;
-  width: 30%;
+  width: 50%;
+}
+
+#experience{
+  text-align: left;
+  margin: auto;
+  width: 50%;
+}
+#education{
+  text-align: left;
+  margin: auto;
+  width: 50%;
+}
+
+#english-level{
+  text-align: left;
+  margin: auto;
+  width: 50%;
 }
