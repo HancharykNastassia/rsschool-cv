@@ -1,0 +1,41 @@
+body{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+#contacts{
+  text-align: left;
+  margin: auto;
+  width: 30%;
+}
+
+#shortDescription{
+  text-align: left;
+  margin: auto;
+  width: 30%;
+}
+
+#skills{
+  text-align: left;
+  margin: auto;
+  width: 30%;
+}
