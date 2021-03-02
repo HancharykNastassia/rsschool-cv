@@ -7,8 +7,8 @@
 ## _**Short description:**_
 1. Curios and love education, selfdevelopment
 2. Responsible
-3. Have experience at controllig real sattelite
-4. Have experience at automation testing
+3. Have an experience controllig real sattelite
+4. Have an experience at automation testing
 
 ## _**Skills:**_
 
