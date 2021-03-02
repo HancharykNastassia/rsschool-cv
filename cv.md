@@ -96,5 +96,5 @@ C# code
 Aerospace Radioelectronic and Information Technologies Speciality,  
 *2014 - 2019*, Bachalor
 
-#### _**English level:**_  
-*B1*
+## _**English level:**_  
+   ***B1***
