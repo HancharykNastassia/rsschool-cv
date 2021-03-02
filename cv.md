@@ -21,7 +21,7 @@
 * Matlab
 * Mathematica
 
-### **<abbr title ="Integrated Development Environment">IDE</abbr>:**
+### **IDE:**
 * MS Visual Studio
 * Xamarin
 
@@ -32,10 +32,10 @@
 * NUnit
 * MSTest
 
-### **<abbr title="Version Control System">VCS</abbr>:**
+### **VCS:**
 Git
 
-### **<abbr title="Continious Integration">CI</abbr> tools:**
+### **CI tools:**
 * Jenkins
 * Bamboo
 
