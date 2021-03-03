@@ -2,8 +2,15 @@ body{
   text-align: center;
 }
 
+section{
+  text-align: left;
+  margin: auto;
+  width: 50%;
+}
+
 h1{
   text-align: center;
+  background-color: lavender;
 }
 
 h2{
@@ -23,36 +30,24 @@ h4{
 }
 
 #contacts{
-  text-align: left;
-  margin: auto;
-  width: 50%;
+  background-color: rgb(252, 209, 216);
 }
 
 #short-description{
-  text-align: left;
-  margin: auto;
-  width: 50%;
+  background-color: rgb(231, 206, 231);
 }
 
 #skills{
-  text-align: left;
-  margin: auto;
-  width: 50%;
+  background-color: rgb(252, 209, 216);
 }
 
 #experience{
-  text-align: left;
-  margin: auto;
-  width: 50%;
+  background-color: rgb(231, 206, 231);
 }
 #education{
-  text-align: left;
-  margin: auto;
-  width: 50%;
+  background-color: rgb(252, 209, 216);
 }
 
 #english-level{
-  text-align: left;
-  margin: auto;
-  width: 50%;
+  background-color: rgb(231, 206, 231);
 }
