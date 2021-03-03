@@ -1,61 +1,31 @@
-body{
+body {
   text-align: center;
-  background-color: rgb(55, 18, 92);
+  background-color: rgb(55,18,92);
 }
-
-section{
-  text-align: left;
+section {
   margin: auto;
   width: 90%;
+  text-align: left;
 }
-
-h1{
-  text-align: center;
-}
-
-h2{
-  text-align: center;
-}
-
-h3{
-  text-align: center;
-}
-
-h4{
-  text-align: center;
-}
-
-img{
+h1,
+h2,
+h3,
+h4 { text-align: center; }
+img {
   margin-left: 25%;
+  width: 50%;
 }
-
-.text-to-shift{
-  margin-left: 2.5em;
+pre {
+  margin: 2%;
+  background-color: black;
 }
-
-#person{
-  background-color: rgb(229, 193, 240);
-}
-
-#contacts{
-  background-color: rgb(252, 209, 216);
-}
-
-#short-description{
-  background-color: rgb(231, 206, 231);
-}
-
-#skills{
-  background-color: rgb(252, 209, 216);
-}
-
-#experience{
-  background-color: rgb(231, 206, 231);
-}
-#education{
-  background-color: rgb(252, 209, 216);
-}
-
-#english-level{
-  background-color: rgb(231, 206, 231);
-}
+code { color: white; }
+.text-to-shift { margin-left: 2.5em; }
+#person        { background-color: rgb(229,193,240); }
+#contacts,
+#skills,
+#experience,
+#english-level { background-color: rgb(252,209,216); }
+#short-description,
+#example-of-code,
+#education     { background-color: rgb(231,206,231); }

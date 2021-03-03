@@ -9,7 +9,7 @@
     <body>
       <section id="person">
         <h1>Nastassia Hancharyk</h1>
-        <img src="img/photo.jpg" alt="There is my photo" width="50%">
+        <img src="img/photo.jpg" alt="There is my photo">
       </section>
       <section id="contacts">
         <h2>Contacts</h2>
@@ -82,10 +82,12 @@
         </ul>
         <p class="text-to-shift">MS Office package</p>
       </section>
-      <!--<h2>Examples of code</h2>
-      <pre>
-        public T Deserialize<T> (IRestResponse response)
-          {
+      <section id="example-of-code">
+        <h2>Example of code</h2>
+        <pre>
+          <code>
+          public T Deserialize&lt;T&gt; (IRestResponse response)
+           {
             if (response == null)
             {
               throw new ArgumentNullException(nameof(response));
@@ -95,10 +97,13 @@
             {
               StreamReader firstReader = new StreamReader(stream);
               JsonTextReader reader = new JsonTextReader(firstReader);
-              var result = serializator.Deserialize<T>(reader);
+              var result = serializator.Deserialize&lt;T&gt;(reader);
               return result;
             }
-          </pre>-->
+          }
+          </code>
+        </pre>
+      </section>
       <section id="experience">
         <h2>Experience</h2>
         <ol>
