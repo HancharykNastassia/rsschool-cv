@@ -63,15 +63,6 @@ a:hover{
 a:visited{
   color: crimson;
 }
-nav{
-  position: relative;
-  top: 60%;
-  display: inline-block;
-  background-color:  rgb(24,5,43);
-  font-size: 1.5em;
-  padding: 5px 0 5px 5px;
-  margin-left: 5px;
-}
 .person{
   display: inline-block;
   vertical-align: top;
