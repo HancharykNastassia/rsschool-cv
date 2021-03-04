@@ -67,11 +67,13 @@ img{
 .skills {
   display: inline-block;
   vertical-align: top;
+  width: 30%;
+  height: 10%;
+}
+#experience {
   border: 1px solid black;
   margin: 5px;
   padding: 5px;
-  width: 30%;
-  height: 10%;
 }
 pre {
   margin: 2%;
@@ -82,8 +84,10 @@ code {
   font-size: 0.5em; 
 }
 .text-to-shift { padding-left: 2.5em; }
-
-#skills,
-#experience { background-color: rgb(252,209,216); }
+.bordered {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
 #short-description,
 #example-of-code { background-color: rgb(231,206,231); }
