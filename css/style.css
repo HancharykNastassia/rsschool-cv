@@ -1,25 +1,48 @@
 body {
   margin: auto;
-  background-color: rgb(55,18,92);
+  background-color: rgb(32, 10, 53);
 }
 header{
   float: left;
   background-color: rgb(229,193,240);
   height: fit-content;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+main{
+  display: inline;
+  float: left;
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(252,209,216);
+  width: 69%;
+}
+aside{
+  float: left;
+  width: 27%;
+  color: white;
+}
+aside section{
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
 }
 section {
   margin: auto;
   text-align: left;
+  padding: 0.5em;
 }
 h1{
   text-align: left;
   padding-left: 2.2em;
 }
+
 h2,
 h3,
-h4 { text-align: center; }
+h4 { text-align: left; }
 figure{
   display: inline;
+  padding: 10px 5px 0 10px;
   margin: 0;
 }
 img{
@@ -29,23 +52,38 @@ img{
   display: inline-block;
   vertical-align: top;
 }
-/*.person article{
-  display: block;
-}*/
+.person article h2{
+  padding-left: 1.8em;
+}
 #person figure p{
   display: inline;
+}
+#skills {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  width: 97%;
+}
+.skills {
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  width: 30%;
+  height: 10%;
 }
 pre {
   margin: 2%;
   background-color: black;
 }
-code { color: white; }
+code {
+  color: white;
+  font-size: 0.5em; 
+}
 .text-to-shift { padding-left: 2.5em; }
 
-#contacts,
 #skills,
-#experience,
-#english-level { background-color: rgb(252,209,216); }
+#experience { background-color: rgb(252,209,216); }
 #short-description,
-#example-of-code,
-#education     { background-color: rgb(231,206,231); }
+#example-of-code { background-color: rgb(231,206,231); }
