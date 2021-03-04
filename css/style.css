@@ -82,12 +82,13 @@ main section h2{
   color: rgb(229,193,240);
 }
 pre {
-  margin: 2%;
+  padding-left: 10px;
   background-color: black;
 }
 code {
   color: white;
   font-size: 0.9em; 
+  width: fit-content;
 }
 .text-to-shift { padding-left: 2.5em; }
 .bordered {
