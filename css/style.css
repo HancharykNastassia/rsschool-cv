@@ -1,6 +1,8 @@
 body {
   margin: auto;
-  background-color: rgb(32, 10, 53);
+  background-color: rgb(24,5,43);
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(24,5,43);
 }
 header{
   float: left;
@@ -15,15 +17,15 @@ main{
   margin: 10px;
   padding: 5px;
   background-color: rgb(252,209,216);
-  width: 69%;
+  width: 67%;
 }
 aside{
   float: left;
-  width: 27%;
-  color: white;
+  width: 30%;
+  color:rgb(229,193,240);
 }
 aside section{
-  border: 1px solid white;
+  border: 1px solid rgb(229,193,240);
   margin: 10px;
   padding: 10px;
 }
@@ -33,8 +35,9 @@ section {
   padding: 0.5em;
 }
 h1{
+  font-size: 3em;
   text-align: left;
-  padding-left: 2.2em;
+  margin: 10px 0 10px 0;
 }
 
 h2,
@@ -46,7 +49,7 @@ figure{
   margin: 0;
 }
 img{
-  width: 25%;
+  width: 30%;
 }
 .person{
   display: inline-block;
@@ -59,21 +62,24 @@ img{
   display: inline;
 }
 #skills {
-  border: 1px solid black;
-  margin: 5px;
-  padding: 5px;
-  width: 97%;
+  text-align: center;
 }
 .skills {
   display: inline-block;
   vertical-align: top;
-  width: 30%;
-  height: 10%;
+  text-align: left;
+  min-width: 26%;
+  max-width: 28%;
+  height: 15em;
 }
 #experience {
   border: 1px solid black;
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
+}
+main section h2{
+  background-color:  rgb(24,5,43);
+  color: rgb(229,193,240);
 }
 pre {
   margin: 2%;
@@ -81,13 +87,13 @@ pre {
 }
 code {
   color: white;
-  font-size: 0.5em; 
+  font-size: 0.9em; 
 }
 .text-to-shift { padding-left: 2.5em; }
 .bordered {
   border: 1px solid black;
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
 }
 #short-description,
 #example-of-code { background-color: rgb(231,206,231); }
