@@ -2,26 +2,46 @@ body {
   margin: auto;
   background-color: rgb(55,18,92);
 }
+header{
+  float: left;
+  background-color: rgb(229,193,240);
+  height: fit-content;
+}
 section {
   margin: auto;
-  width: 90%;
   text-align: left;
 }
-h1,
+h1{
+  text-align: left;
+  padding-left: 2.2em;
+}
 h2,
 h3,
 h4 { text-align: center; }
-img {
-  margin-left: 25%;
-  width: 50%;
+figure{
+  display: inline;
+  margin: 0;
+}
+img{
+  width: 25%;
+}
+.person{
+  display: inline-block;
+  vertical-align: top;
+}
+/*.person article{
+  display: block;
+}*/
+#person figure p{
+  display: inline;
 }
 pre {
   margin: 2%;
   background-color: black;
 }
 code { color: white; }
-.text-to-shift { margin-left: 2.5em; }
-#person        { background-color: rgb(229,193,240); }
+.text-to-shift { padding-left: 2.5em; }
+
 #contacts,
 #skills,
 #experience,
