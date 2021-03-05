@@ -2,7 +2,14 @@ body {
   margin: auto;
   background-color: rgb(24,5,43);
   font-family: Helvetica, Arial, sans-serif;
-  color: rgb(24,5,43);
+  color: rgb(53,22,85);
+}
+.text-to-shift { padding-left: 2.5em; }
+.bordered {
+  border: 1px solid rgb(53,22,85);
+  margin: 5px;
+  padding: 10px;
+  overflow: hidden;
 }
 header{
   float: left;
@@ -17,7 +24,7 @@ main{
   margin: 10px 10px 10px 0;
   padding: 5px;
   background-color: rgb(252,209,216);
-  width: 67.5%;
+  width: calc(70% - 20px);
 }
 main h2{
   padding-left: 5px;
@@ -36,9 +43,10 @@ section {
   margin: auto;
   text-align: left;
   padding: 0.5em;
+  overflow-x: hidden;
 }
 h1{
-  font-size: 4em;
+  font-size: 4rem;
   text-align: left;
   margin: 10px 0 10px 0;
 }
@@ -67,8 +75,16 @@ a:visited{
   display: inline-block;
   vertical-align: top;
 }
+#contacts ul {
+  list-style-type: none;
+  padding: 0;
+}
 #person figure p{
   display: inline;
+}
+#education article{
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 #skills {
   text-align: center;
@@ -80,15 +96,12 @@ a:visited{
 .skills {
   display: inline-block;
   vertical-align: top;
-  text-align: left;
-  min-width: 26%;
-  max-width: 28%;
-  height: 15em;
+  width: calc(100% - 34px);
+  height: 17em;
 }
-#experience {
-  border: 1px solid black;
-  margin: 5px;
-  padding: 10px;
+.columned{
+  column-count: 3;
+  column-gap: 10px;
 }
 main section h2{
   background-color:  rgb(24,5,43);
@@ -97,17 +110,12 @@ main section h2{
 pre {
   padding-left: 10px;
   background-color: black;
+  overflow: auto;
 }
 code {
   color: white;
   font-size: 0.9em; 
-  width: fit-content;
-}
-.text-to-shift { padding-left: 2.5em; }
-.bordered {
-  border: 1px solid black;
-  margin: 5px;
-  padding: 10px;
+  /*width: fit-content;*/
 }
 #example-of-code 
 { 
