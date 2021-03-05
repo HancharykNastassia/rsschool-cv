@@ -40,10 +40,17 @@ aside section{
   padding: 10px;
 }
 .footer{
-  margin: 10px auto 0 auto;
+  margin-left: 20px;
+}
+footer{
+  background-color: rgb(231,206,231);
 }
 footer img{
   height: 50px;
+}
+footer p{
+  padding-top: 10px;
+  margin-top: 0;
 }
 section {
   margin: auto;
