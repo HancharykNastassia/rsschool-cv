@@ -1,135 +1,130 @@
 body {
   margin: auto;
-  background-color: rgb(24,5,43);
   font-family: Helvetica, Arial, sans-serif;
   color: rgb(53,22,85);
+  background-color: rgb(24,5,43);
 }
-.text-to-shift { padding-left: 2.5em; }
-.bordered {
-  border: 1px solid rgb(53,22,85);
-  margin: 5px;
-  padding: 10px;
-  overflow: hidden;
-}
-header{
-  float: left;
-  background-color: rgb(229,193,240);
-  height: fit-content;
-  margin-top: 5px;
-  padding-bottom: 5px;
-}
-header img{
-  width: 30%;
-}
-main{
-  display: inline-block;
-  /*float: right;*/
-  margin: 10px 10px 10px 0;
-  padding: 5px;
-  background-color: rgb(252,209,216);
-  width: calc(69% - 20px);
-}
-main h2{
-  padding-left: 5px;
-}
-aside{
-  float: left;
-  width: 31%;
-  color:rgb(229,193,240);
-}
-aside section{
-  border: 1px solid rgb(229,193,240);
-  margin: 10px;
-  padding: 10px;
-}
-.footer{
-  margin-left: 20px;
-}
-footer{
-  background-color: rgb(231,206,231);
-}
-footer img{
-  height: 50px;
-}
-footer p{
-  padding-top: 10px;
-  margin-top: 0;
-}
+
 section {
-  margin: auto;
-  text-align: left;
   padding: 0.5em;
   overflow-x: hidden;
 }
-h1{
-  font-size: 4rem;
-  text-align: left;
-  margin: 10px 0 10px 0;
-}
-h2,
-h3,
-h4 { text-align: left; }
-figure{
+
+figure {
   display: inline;
-  padding: 10px 5px 0 10px;
   margin: 0;
+  padding: 10px 5px 0 10px;
 }
-a{
-  color: cornflowerblue;
+
+h1 {
+  margin: 10px 0 10px 0;
+  font-size: 4rem;
 }
+
+a { color: cornflowerblue; }
+
 a:focus,
-a:hover{
+a:hover {
   color: hotpink;
 }
-a:visited{
-  color: crimson;
+
+a:visited { color: crimson; }
+
+.text-to-shift { padding-left: 2.5em; }
+
+.bordered {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid rgb(53,22,85);
+  overflow: hidden;
 }
-.person{
-  display: inline-block;
-  vertical-align: top;
-}
-#contacts ul {
-  list-style-type: none;
-  padding: 0;
-}
-#person figure p{
-  display: inline;
-}
-#education article{
-  margin-top: 3em;
-  margin-bottom: 3em;
-}
-#skills {
-  text-align: center;
-  color: darkmagenta;
-}
-#skills h2{
-  background-color: darkmagenta;
-}
-.skills {
-  display: inline-block;
-  vertical-align: top;
-  width: calc(100% - 34px);
-  height: 17em;
-}
-.columned{
+
+.columned {
   column-count: 3;
   column-gap: 10px;
 }
-main section h2{
-  background-color:  rgb(24,5,43);
-  color: rgb(229,193,240);
+
+header {
+  height: fit-content;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(229,193,240);
 }
+
+header img { width: 30%; }
+
+.person {
+  display: inline-block;
+  vertical-align: top;
+}
+
+main {
+  display: inline-block;
+  width: calc(69% - 20px);
+  margin: 10px 10px 10px 0;
+  padding: 5px;
+  background-color: rgb(252,209,216);
+}
+
+main h2 { padding-left: 5px; }
+
+main section h2 {
+  color: rgb(229, 193, 240);
+  background-color: rgb(24,5,43);
+}
+
+#skills h2 { background-color: darkmagenta; }
+
+.skills {
+  display: inline-block;
+  width: calc(100% - 34px);
+  height: 17em;
+  vertical-align: top;
+}
+
 pre {
   padding-left: 10px;
   background-color: black;
   overflow: auto;
 }
+
 code {
+  font-size: 0.9em;
   color: white;
-  font-size: 0.9em; 
 }
-#example-of-code 
-{ 
-  background-color: rgb(231,206,231); 
+
+#example-of-code { background-color: rgb(231,206,231); }
+
+aside {
+  float: left;
+  width: 31%;
+  color: rgb(229,193,240);
 }
+
+aside section {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(229,193,240);
+}
+
+#contacts ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#education article {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  text-align: justify;
+}
+
+footer { background-color: rgb(231,206,231); }
+
+footer img { height: 50px; }
+
+footer p {
+  margin-top: 0;
+  padding-top: 10px;  
+}
+
+.footer { margin-left: 20px; }
