@@ -18,20 +18,23 @@ header{
   margin-top: 5px;
   padding-bottom: 5px;
 }
+header img{
+  width: 30%;
+}
 main{
   display: inline-block;
   /*float: right;*/
   margin: 10px 10px 10px 0;
   padding: 5px;
   background-color: rgb(252,209,216);
-  width: calc(70% - 20px);
+  width: calc(69% - 20px);
 }
 main h2{
   padding-left: 5px;
 }
 aside{
   float: left;
-  width: 30%;
+  width: 31%;
   color:rgb(229,193,240);
 }
 aside section{
@@ -70,9 +73,6 @@ figure{
   display: inline;
   padding: 10px 5px 0 10px;
   margin: 0;
-}
-header img{
-  width: 30%;
 }
 a{
   color: cornflowerblue;
